@@ -3,100 +3,258 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paw Games Studios</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #1e1e2f, #2d2d44);
-            color: #fff;
-        }
-        header {
-            background: rgba(0, 0, 0, 0.6);
-            padding: 20px 40px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        header h1 {
-            font-size: 1.5rem;
-            color: #ff9f1c;
-            margin: 0;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin-left: 20px;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-        nav a:hover {
-            color: #ff9f1c;
-        }
-        main {
-            text-align: center;
-            padding: 60px 20px;
-        }
-        h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            color: #ff9f1c;
-        }
-        p {
-            max-width: 700px;
-            margin: auto;
-            font-size: 1.1rem;
-            line-height: 1.6;
-            color: #ddd;
-        }
-        .btn {
-            display: inline-block;
-            background: #ff9f1c;
-            color: #000;
-            padding: 14px 30px;
-            margin-top: 30px;
-            border-radius: 30px;
-            font-weight: bold;
-            text-decoration: none;
-            transition: background 0.3s;
-        }
-        .btn:hover {
-            background: #ffb84d;
-        }
-        footer {
-            background: rgba(0, 0, 0, 0.6);
-            text-align: center;
-            padding: 15px;
-            font-size: 0.9rem;
-            color: #aaa;
-            margin-top: 40px;
-        }
-    </style>
+    <title>Paw Games - Mobil Oyun Şirketi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Paw Games Studios</h1>
-        <nav>
-            <a href="index.html">Ana Sayfa</a>
-            <a href="privacy-policy.html">Gizlilik Politikası</a>
-        </nav>
-    </header>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://via.placeholder.com/150x50/6366f1/ffffff?text=Paw+Games" alt="Paw Games">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#games" class="nav-link">Oyunlarımız</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#careers" class="nav-link">Kariyer</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">İletişim</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-    <main>
-        <h2>🎮 Eğlencenin Yeni Adı!</h2>
-        <p>
-            Paw Games Studios olarak, oyunculara heyecan verici, yaratıcı ve bağımlılık yapan mobil oyunlar sunuyoruz.
-            Amacımız, her yaştan oyuncuya keyifli, kaliteli ve yenilikçi oyun deneyimleri yaşatmak.
-        </p>
-        <a class="btn" href="privacy-policy.html">Gizlilik Politikamızı Gör</a>
-    </main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Mobil Oyun Dünyasında <span class="highlight">Yenilikçi</span> Deneyimler</h1>
+                <p class="hero-description">
+                    Paw Games olarak, oyuncuların hayal gücünü zorlayan ve eğlenceli deneyimler sunan 
+                    mobil oyunlar geliştiriyoruz. Her oyunumuzda kalite ve yaratıcılığı ön planda tutuyoruz.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#games" class="btn btn-primary">Oyunlarımızı Keşfet</a>
+                    <a href="#about" class="btn btn-secondary">Hakkımızda</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/500x400/6366f1/ffffff?text=Hero+Image" alt="Mobil Oyun">
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        &copy; 2025 Paw Games Studios. Tüm hakları saklıdır.
+    <!-- Games Section -->
+    <section id="games" class="games">
+        <div class="container">
+            <h2 class="section-title">Popüler Oyunlarımız</h2>
+            <div class="games-grid">
+                <div class="game-card">
+                    <div class="game-image">
+                        <img src="https://via.placeholder.com/300x200/8b5cf6/ffffff?text=Game+1" alt="Oyun 1">
+                    </div>
+                    <div class="game-content">
+                        <h3>Puzzle Adventure</h3>
+                        <p>Zeka geliştirici bulmaca oyunu ile maceraya atılın!</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-download"></i> 1M+</span>
+                            <span><i class="fas fa-star"></i> 4.8</span>
+                        </div>
+                        <a href="#" class="btn btn-small">İndir</a>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-image">
+                        <img src="https://via.placeholder.com/300x200/06b6d4/ffffff?text=Game+2" alt="Oyun 2">
+                    </div>
+                    <div class="game-content">
+                        <h3>Racing Legends</h3>
+                        <p>Hızlı ve heyecan dolu yarış deneyimi!</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-download"></i> 2M+</span>
+                            <span><i class="fas fa-star"></i> 4.9</span>
+                        </div>
+                        <a href="#" class="btn btn-small">İndir</a>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-image">
+                        <img src="https://via.placeholder.com/300x200/10b981/ffffff?text=Game+3" alt="Oyun 3">
+                    </div>
+                    <div class="game-content">
+                        <h3>Farm Simulator</h3>
+                        <p>Kendi çiftliğinizi kurun ve yönetin!</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-download"></i> 500K+</span>
+                            <span><i class="fas fa-star"></i> 4.7</span>
+                        </div>
+                        <a href="#" class="btn btn-small">İndir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Hakkımızda</h2>
+                    <p>
+                        2025 yılında kurulan Paw Games, mobil oyun sektöründe yenilikçi ve kaliteli 
+                        oyunlar geliştirmeyi hedefleyen bir şirkettir. Deneyimli ekibimiz ile 
+                        oyuncuların beklentilerini aşan deneyimler sunuyoruz.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3>10+</h3>
+                            <p>Yayınlanan Oyun</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5M+</h3>
+                            <p>Toplam İndirme</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Çalışan</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>4.8</h3>
+                            <p>Ortalama Puan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/400x300/6366f1/ffffff?text=About+Us" alt="Hakkımızda">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section id="careers" class="careers">
+        <div class="container">
+            <h2 class="section-title">Kariyer Fırsatları</h2>
+            <p class="section-description">
+                Paw Games ailesine katılmak ister misiniz? Yaratıcı ve dinamik bir ekibin parçası olun!
+            </p>
+            <div class="careers-grid">
+                <div class="career-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Unity Developer</h3>
+                    <p>Mobil oyun geliştirme konusunda deneyimli Unity developer arıyoruz.</p>
+                    <a href="#" class="btn btn-outline">Başvur</a>
+                </div>
+                <div class="career-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Game Artist</h3>
+                    <p>Yaratıcı ve yetenekli game artist ekibimize katılın.</p>
+                    <a href="#" class="btn btn-outline">Başvur</a>
+                </div>
+                <div class="career-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Marketing Manager</h3>
+                    <p>Oyun pazarlama stratejileri geliştirecek deneyimli yönetici arıyoruz.</p>
+                    <a href="#" class="btn btn-outline">Başvur</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">İletişim</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>E-posta</h3>
+                            <p>pawgamestudios@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefon</h3>
+                            <p>+90 312 999 9999</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Adres</h3>
+                            <p>Ankara, Türkiye</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Adınız" required>
+                    <input type="email" placeholder="E-posta" required>
+                    <textarea placeholder="Mesajınız" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="https://via.placeholder.com/120x40/6366f1/ffffff?text=Paw+Games" alt="Paw Games">
+                    <p>Mobil oyun dünyasında yenilikçi deneyimler sunuyoruz.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li><a href="#home">Ana Sayfa</a></li>
+                        <li><a href="#games">Oyunlarımız</a></li>
+                        <li><a href="#about">Hakkımızda</a></li>
+                        <li><a href="#careers">Kariyer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Destek</h3>
+                    <ul>
+                        <li><a href="#">Yardım Merkezi</a></li>
+                        <li><a href="privacy-policy.html">Gizlilik Politikası</a></li>
+                        <li><a href="#">Kullanım Şartları</a></li>
+                        <li><a href="#">SSS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Paw Games. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
