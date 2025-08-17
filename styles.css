@@ -244,7 +244,6 @@ body {
 
 .about-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
 }
@@ -648,4 +647,5 @@ body {
     .policy-header h1 {
         font-size: 1.8rem;
     }
+
 }
